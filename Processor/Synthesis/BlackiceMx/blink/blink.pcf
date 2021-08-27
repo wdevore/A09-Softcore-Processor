@@ -1,0 +1,27 @@
+set_io clk 60
+
+set_io led[0] 49 # B81/GBin5 L0 Blue led / S2 button
+set_io led[1] 52 # B82/GBin4 L1 Green led / S1 button
+set_io led[2] 55 # B91 L3 Yellow led
+set_io led[3] 56 # B94 cs Red led
+# set_io whiteLed 1 # PMOD 6-42
+
+# White LEDs
+set_io signals[0] 139
+set_io signals[1] 138
+set_io signals[2] 142
+set_io signals[3] 141
+set_io signals[4] 135
+set_io signals[5] 134
+set_io signals[6] 137
+set_io signals[7] 136
+
+# Color LEDs
+set_io signals[8]  4
+set_io signals[9]  3
+set_io signals[10] 144
+set_io signals[11] 143
+set_io signals[12] 8
+set_io signals[13] 7
+set_io signals[14] 2
+set_io signals[15] 1

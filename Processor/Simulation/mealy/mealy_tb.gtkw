@@ -1,0 +1,66 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Fri Jul 16 01:16:33 2021
+[*]
+[dumpfile] "/media/RAMDisk/mealy_tb.vcd"
+[dumpfile_mtime] "Fri Jul 16 01:15:08 2021"
+[dumpfile_size] 27769
+[savefile] "/media/iposthuman/Nihongo/Hardware/verilog/Verilog-Projects/A09/Processor/Simulation/mealy/mealy_tb.gtkw"
+[timestart] 0
+[size] 1794 1012
+[pos] 1888 170
+*-17.824921 300000 700000 100000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] mealy_tb.
+[sst_width] 221
+[signals_width] 274
+[sst_expanded] 1
+[sst_vpaned_height] 282
+@28
+[color] 2
+mealy_tb.Clock_TB
+@2024
+[color] 3
+^1 /media/iposthuman/Nihongo/Hardware/verilog/Verilog-Projects/A09/Processor/Simulation/mealy/gtkwave_vector_state_filter.txt
+mealy_tb.Matrix.vector_state[1:0]
+[color] 3
+^1 /media/iposthuman/Nihongo/Hardware/verilog/Verilog-Projects/A09/Processor/Simulation/mealy/gtkwave_vector_state_filter.txt
+mealy_tb.Matrix.next_vector_state[1:0]
+@28
+[color] 1
+mealy_tb.Matrix_Reset_TB
+@200
+-
+@28
+mealy_tb.PC_RST_TB
+mealy_tb.PC_SRC_TB[2:0]
+@29
+mealy_tb.PC_LD_TB
+@22
+mealy_tb.MUX_PC_to_PC_TB[7:0]
+mealy_tb.PC_to_MUX_ADDR_TB[7:0]
+@200
+-
+@28
+mealy_tb.MAR_Reset_TB
+mealy_tb.ADDR_SRC_TB[1:0]
+mealy_tb.MAR_Ld_TB
+@22
+mealy_tb.MUX_ADDR_to_MAR_TB[7:0]
+@c00022
+[color] 3
+mealy_tb.MAR_Output_TB[7:0]
+@28
+(0)mealy_tb.MAR_Output_TB[7:0]
+(1)mealy_tb.MAR_Output_TB[7:0]
+(2)mealy_tb.MAR_Output_TB[7:0]
+(3)mealy_tb.MAR_Output_TB[7:0]
+(4)mealy_tb.MAR_Output_TB[7:0]
+(5)mealy_tb.MAR_Output_TB[7:0]
+(6)mealy_tb.MAR_Output_TB[7:0]
+(7)mealy_tb.MAR_Output_TB[7:0]
+@1401200
+-group_end
+@200
+-
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,29 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Wed May 19 01:56:56 2021
+[*]
+[dumpfile] "/media/RAMDisk/register_tb.vcd"
+[dumpfile_mtime] "Wed May 19 01:56:12 2021"
+[dumpfile_size] 25316
+[savefile] "/media/iposthuman/Nihongo/Hardware/verilog/Verilog-Projects/A09/Series/Simulation/register/register_tb.gtkw"
+[timestart] 0
+[size] 1376 750
+[pos] -1 -1
+*-17.032829 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 221
+[signals_width] 134
+[sst_expanded] 1
+[sst_vpaned_height] 196
+@28
+[color] 2
+register_tb.Clock_TB
+@22
+register_tb.DIn_TB[15:0]
+register_tb.DOut_TB[15:0]
+@28
+register_tb.LD_TB
+@29
+[color] 1
+register_tb.Reset_TB
+[pattern_trace] 1
+[pattern_trace] 0

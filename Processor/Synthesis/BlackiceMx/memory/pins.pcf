@@ -1,0 +1,33 @@
+set_io clk 60
+
+# Active low signal
+set_io activity 52 # Heart beat clock
+
+set_io mem_wr  24
+set_io addr0   23
+set_io addr1   20
+
+# Control signals
+set_io clock_i 26     # Clock from microcontroller
+set_io reset_i 25     # Reset from microcontroller
+
+
+# White LEDs
+set_io signals[0] 139
+set_io signals[1] 138
+set_io signals[2] 142
+set_io signals[3] 141
+set_io signals[4] 135
+set_io signals[5] 134
+set_io signals[6] 137
+set_io signals[7] 136
+
+# Color LEDs
+set_io signals[8]  4
+set_io signals[9]  3
+set_io signals[10] 144
+set_io signals[11] 143
+set_io signals[12] 8
+set_io signals[13] 7
+set_io signals[14] 2
+set_io signals[15] 1

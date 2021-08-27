@@ -1,0 +1,33 @@
+set_io clk 60    # 25MHz crystal
+
+# Active low signal
+set_io indic  52 # B82/GBin4 L1 Green led / S1 button
+
+set_io indic2 55 # B91 L3 Yellow led
+set_io indic3 49 # B81/GBin5 L0 Blue led / S2 button
+set_io indic4 56 # B94 cs Red led
+
+# Control signals
+set_io clock_i 26     # Clock from microcontroller
+set_io reset_i 25     # Reset from microcontroller
+
+
+# White LEDs
+set_io signals[0] 135
+set_io signals[1] 134
+set_io signals[2] 137
+set_io signals[3] 136
+set_io signals[4] 139
+set_io signals[5] 138
+set_io signals[6] 142
+set_io signals[7] 141
+
+# Color LEDs
+set_io signals[8]  4
+set_io signals[9]  3
+set_io signals[10] 144
+set_io signals[11] 143
+set_io signals[12] 8
+set_io signals[13] 7
+set_io signals[14] 2
+set_io signals[15] 1

@@ -1,0 +1,3 @@
+0 Reset
+1 Ready
+2 HALT

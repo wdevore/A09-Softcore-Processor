@@ -1,0 +1,31 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Thu Feb 25 03:50:14 2021
+[*]
+[dumpfile] "/media/iposthuman/Nihongo/Hardware/verilog/Verilog-Projects/A09/modules/memory/memory_tb.vcd"
+[dumpfile_mtime] "Thu Feb 25 03:49:26 2021"
+[dumpfile_size] 25748
+[savefile] "/media/iposthuman/Nihongo/Hardware/verilog/Verilog-Projects/A09/modules/memory/memory_tb.gtkw"
+[timestart] 0
+[size] 1882 852
+[pos] 0 13
+*-17.506586 108200 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 221
+[signals_width] 204
+[sst_expanded] 1
+[sst_vpaned_height] 232
+@28
+[color] 2
+memory_tb.Clock_TB
+@22
+memory_tb.DIn_TB[15:0]
+memory_tb.Address_TB[7:0]
+[color] 3
+memory_tb.DOut_TB[15:0]
+@29
+memory_tb.MemEn_TB
+@28
+[color] 1
+memory_tb.WriteEn_TB
+[pattern_trace] 1
+[pattern_trace] 0

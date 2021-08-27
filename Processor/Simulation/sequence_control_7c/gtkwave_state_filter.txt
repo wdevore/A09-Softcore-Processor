@@ -1,0 +1,7 @@
+0 Reset
+1 FetchPCtoMEM
+2 FetchMEMtoIR
+3 Decode
+4 Execute
+5 Ready
+6 HALT

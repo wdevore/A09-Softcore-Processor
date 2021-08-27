@@ -1,0 +1,48 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Mon Jul 12 00:42:57 2021
+[*]
+[dumpfile] "/media/RAMDisk/manual_tb.vcd"
+[dumpfile_mtime] "Mon Jul 12 00:39:43 2021"
+[dumpfile_size] 26992
+[savefile] "/media/iposthuman/Nihongo/Hardware/verilog/Verilog-Projects/A09/Processor/Simulation/manual/manual_tb.gtkw"
+[timestart] 0
+[size] 1856 1044
+[pos] 1879 14
+*-17.498610 83300 100000 800000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 221
+[signals_width] 235
+[sst_expanded] 1
+[sst_vpaned_height] 290
+@28
+[color] 2
+manual_tb.Clock_TB
+manual_tb.PC_Reset_TB
+manual_tb.MAR_Reset_TB
+@200
+-
+@23
+manual_tb.MUX_PC_to_PC_TB[7:0]
+@28
+manual_tb.PC_LD_TB
+manual_tb.PC_SRC_TB[2:0]
+@200
+-
+@28
+manual_tb.ADDR_SRC_TB[1:0]
+@22
+manual_tb.PC_to_MUX_ADDR_TB[7:0]
+@200
+-
+@22
+manual_tb.MUX_ADDR_to_MAR_TB[7:0]
+@28
+[color] 7
+manual_tb.MAR_Ld_TB
+@200
+-
+@22
+[color] 3
+manual_tb.MAR_Output_TB[7:0]
+[pattern_trace] 1
+[pattern_trace] 0

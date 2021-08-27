@@ -1,0 +1,147 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sat Aug  7 15:43:53 2021
+[*]
+[dumpfile] "/media/RAMDisk/cpu_tb.vcd"
+[dumpfile_mtime] "Sat Aug  7 15:42:36 2021"
+[dumpfile_size] 34291
+[savefile] "/media/iposthuman/Nihongo/Hardware/verilog/Verilog-Projects/A09/Processor/Simulation/cpu/cpu_tb.gtkw"
+[timestart] 0
+[size] 2183 1222
+[pos] 0 27
+*-18.257109 4039000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_tb.
+[treeopen] cpu_tb.cpu.
+[sst_width] 254
+[signals_width] 283
+[sst_expanded] 1
+[sst_vpaned_height] 363
+@28
+[color] 2
+cpu_tb.Clock_TB
+[color] 1
+cpu_tb.Reset_TB
+[color] 7
+cpu_tb.CPU_Halt_TB
+cpu_tb.CPU_Ready_TB
+@200
+-Machine States
+@2024
+[color] 7
+^1 /media/iposthuman/Nihongo/Hardware/verilog/Verilog-Projects/A09/Processor/Simulation/cpu/gtkwave_state_filter.txt
+cpu_tb.cpu.ControlMatrix.state[3:0]
+[color] 7
+^1 /media/iposthuman/Nihongo/Hardware/verilog/Verilog-Projects/A09/Processor/Simulation/cpu/gtkwave_state_filter.txt
+cpu_tb.cpu.ControlMatrix.next_state[3:0]
+[color] 7
+^2 /media/iposthuman/Nihongo/Hardware/verilog/Verilog-Projects/A09/Processor/Simulation/cpu/gtkwave_vector_state_filter.txt
+cpu_tb.cpu.ControlMatrix.vector_state[1:0]
+[color] 7
+^2 /media/iposthuman/Nihongo/Hardware/verilog/Verilog-Projects/A09/Processor/Simulation/cpu/gtkwave_vector_state_filter.txt
+cpu_tb.cpu.ControlMatrix.next_vector_state[1:0]
+@200
+-Instruction Reg
+@28
+cpu_tb.cpu.ControlMatrix.ir_ld_o
+@2024
+^3 /media/iposthuman/Nihongo/Hardware/verilog/Verilog-Projects/A09/Processor/Simulation/cpu/gtkwave_isa_filter.txt
+cpu_tb.cpu.ControlMatrix.opCode[15:12]
+@22
+[color] 3
+cpu_tb.IR_TB[15:0]
+@200
+-Vector Signals
+@28
+cpu_tb.cpu.ControlMatrix.stk_ld_o
+@22
++{StackOut} cpu_tb.cpu.Stack.data_o[15:0]
+cpu_tb.cpu.ControlMatrix.bra_src_o
+[color] 3
+cpu_tb.cpu.branchAddress[15:0]
+@28
++{MUX_BRA} cpu_tb.cpu.MUX_BRA.select_i
+@22
++{MUX_BRA_OUT} cpu_tb.cpu.MUX_BRA.data_o[15:0]
+@200
+-Program Counter
+@28
+cpu_tb.cpu.ControlMatrix.pc_ld
+cpu_tb.cpu.ControlMatrix.pc_rst_o
+cpu_tb.cpu.ControlMatrix.pc_inc_o
+@2024
+^4 /media/iposthuman/Nihongo/Hardware/verilog/Verilog-Projects/A09/Processor/Simulation/cpu/gtkwave_pc_src.txt
+cpu_tb.cpu.ControlMatrix.pc_src_o[2:0]
+@22
+[color] 3
+cpu_tb.cpu.pc_out[15:0]
+@200
+-Memory
+@28
+cpu_tb.cpu.ControlMatrix.mem_wr_o
+@2024
+^5 /media/iposthuman/Nihongo/Hardware/verilog/Verilog-Projects/A09/Processor/Simulation/cpu/gtkwave_addr_src.txt
+cpu_tb.cpu.ControlMatrix.addr_src_o[1:0]
+@22
+cpu_tb.cpu.memory.address_i[7:0]
+[color] 3
++{MemOut} cpu_tb.cpu.memory.data_o[15:0]
+@200
+-RegFile
+@28
+cpu_tb.cpu.ControlMatrix.reg_we_o
+@2024
+^6 /media/iposthuman/Nihongo/Hardware/verilog/Verilog-Projects/A09/Processor/Simulation/cpu/gtkwave_data_src.txt
+cpu_tb.cpu.ControlMatrix.data_src_o[1:0]
+^7 /media/iposthuman/Nihongo/Hardware/verilog/Verilog-Projects/A09/Processor/Simulation/cpu/gtkwave_reg_id_filter.txt
+cpu_tb.cpu.RegFile.reg_dst_i[2:0]
+^7 /media/iposthuman/Nihongo/Hardware/verilog/Verilog-Projects/A09/Processor/Simulation/cpu/gtkwave_reg_id_filter.txt
+cpu_tb.cpu.RegFile.reg_src1_i[2:0]
+@c02024
+^7 /media/iposthuman/Nihongo/Hardware/verilog/Verilog-Projects/A09/Processor/Simulation/cpu/gtkwave_reg_id_filter.txt
+cpu_tb.cpu.RegFile.reg_src2_i[2:0]
+@28
+(0)cpu_tb.cpu.RegFile.reg_src2_i[2:0]
+(1)cpu_tb.cpu.RegFile.reg_src2_i[2:0]
+(2)cpu_tb.cpu.RegFile.reg_src2_i[2:0]
+@1401200
+-group_end
+@22
+[color] 3
++{Src1 A} cpu_tb.cpu.RegFile.src1_o[15:0]
+[color] 3
++{Src2 B} cpu_tb.cpu.RegFile.src2_o[15:0]
+@200
+-ALU
+@2024
+^3 /media/iposthuman/Nihongo/Hardware/verilog/Verilog-Projects/A09/Processor/Simulation/cpu/gtkwave_isa_filter.txt
+cpu_tb.cpu.ControlMatrix.alu_op_o[3:0]
+@28
+cpu_tb.cpu.ControlMatrix.alu_ld_o
+cpu_tb.cpu.ControlMatrix.alu_instr
+@2028
+^8 /media/iposthuman/Nihongo/Hardware/verilog/Verilog-Projects/A09/Processor/Simulation/cpu/gtkwave_alu_flags.txt
++{FlagsOut} cpu_tb.cpu.Alu.flags_o[3:0]
+@22
+[color] 3
+cpu_tb.cpu.Alu.ORes[15:0]
+@28
+cpu_tb.cpu.ControlMatrix.flg_ld_o
+cpu_tb.cpu.ControlMatrix.flg_rst_o
+@200
+-Bit Extenders
+@22
+[color] 6
+cpu_tb.cpu.absoluteZeroExtL[15:0]
+[color] 6
+cpu_tb.cpu.absoluteZeroExtH[15:0]
+cpu_tb.cpu.relativeSignedExt[15:0]
+@200
+-Output
+@28
+cpu_tb.cpu.ControlMatrix.out_ld_o
+cpu_tb.cpu.ControlMatrix.out_sel_o
+@22
+[color] 3
++{Output} cpu_tb.cpu.OutputR.data_o[15:0]
+[pattern_trace] 1
+[pattern_trace] 0

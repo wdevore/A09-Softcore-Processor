@@ -1,0 +1,7 @@
+0 Reset
+1 Fetch
+2 Decode
+3 ALUExecute
+4 BasExecute
+5 Ready
+6 HALT
